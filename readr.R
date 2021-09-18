@@ -19,7 +19,7 @@ head(heights)
 heights <- read.csv("data/heights.csv")
 
 h <-   read_csv("data/heights.csv",
-   x,y,z
+   x,y,z,
    1,2,3, skip = 2)
 h
 
