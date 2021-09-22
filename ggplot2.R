@@ -181,6 +181,7 @@ demo <- tribble(
   "bar_2", 30,
   "bar_3", 40
 )
+
 ggplot(data = demo) +
   geom_bar(
     mapping = aes(x = a, y = b ), stat = "identity"
